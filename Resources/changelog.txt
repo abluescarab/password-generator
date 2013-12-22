@@ -1,0 +1,37 @@
+2.0.0
+=====
+   Date: 2013-12-21
+----------------------------------------------------------
+MAJOR:
+- Updated to C#
+- Added character repeat checkbox
+- Added more character options
+- Added options to save to text file
+- Added options for mass generation
+- Added menu
+
+MINOR:
+- Changed FlatStyle
+- Added cap on password length
+- Removed Exit button on main window
+- Replaced length textbox with NumericUpDown control
+
+1.1.0.1
+=======
+   Date: 2011-05-10
+----------------------------------------------------------
+FIX:
+- When displaying error message about 1000-character limit during Number type generation, would generate letters rather than numbers
+
+1.1.0.0
+=======
+   Date: 2011-05-10
+----------------------------------------------------------
+MAJOR:
+- Added support for other characters
+
+MINOR:
+- Changed layout
+- Added icons for buttons
+- Added border around combobox
+- Added text in statusbar when password is generated
