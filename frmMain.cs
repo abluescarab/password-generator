@@ -85,7 +85,7 @@ namespace password_generator {
 						result = Generate(rand);
 
 						if(result != "failed") {
-							txtPassword.Text = Generate(rand);
+							txtPassword.Text = result;
 
 							file.WriteLine(txtPassword.Text);
 
@@ -102,7 +102,7 @@ namespace password_generator {
 				result = Generate(rand);
 
 				if(result != "failed") {
-					txtPassword.Text = Generate(rand);
+					txtPassword.Text = result;
 
 					UpdateStatus("Finished generating password.");
 				}

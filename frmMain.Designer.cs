@@ -446,7 +446,6 @@
 			this.numMassGen.Name = "numMassGen";
 			this.numMassGen.Size = new System.Drawing.Size(61, 20);
 			this.numMassGen.TabIndex = 17;
-			this.numMassGen.ThousandsSeparator = true;
 			this.numMassGen.Value = global::password_generator.Properties.Settings.Default.massAmount;
 			this.numMassGen.ValueChanged += new System.EventHandler(this.numMassGen_ValueChanged);
 			// 
